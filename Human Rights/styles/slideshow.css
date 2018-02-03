@@ -7,6 +7,18 @@
     70%{left: -200%;}
     75%{left: -300%;}
     95%{left: -300%;}
+    100%{left: -400%;}
+    120%{left: -400%;}
+    125%{left: -500%;}
+    145%{left: -500%;}
+    150%{left: -600%;}
+    170%{left: -600%;}
+    175%{left: -700%;}
+    195%{left: -700%;}
+    200%{left: -800%;}
+    220%{left: -800%;}
+    225%{left: -900%;}
+    245%{left: -900%;}
 }
 
 #slider {
@@ -20,10 +32,9 @@
 
 #container {
 	position: relative;
-	width: 400%;
+	width: 1000%;
 	height: 420px;
 	margin: 0 auto;
-	
 	background: transparent;
 	text-align: left;
 	clear: both;
@@ -32,7 +43,7 @@
 
 .slides {
 	position: relative;
-	width: 25%;
+	width: 10%;
 	height: 420px;
 	float: left;
 	padding: 0px;
