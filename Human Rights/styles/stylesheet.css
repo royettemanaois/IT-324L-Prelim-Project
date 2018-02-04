@@ -40,34 +40,38 @@ li.navTab{
     float: right;
 }
 
-section {
-    margin: -48px auto;
-    background-color: white;
-    background-color: rgba(0,0,0,0.2);
-}
-
 section#Home {
-    margin-top: -10%;   
-    background-color: pink;
+    margin-top: -18px;
+    background-color: lightgreen;
 }
 
-section#News{
+section#section2{
     background-color: yellow;
 }
 
-section#Events{
+section#section3{
     background-color: orange;
 }
 
-section#Anouncements{
+section#section4{
     background-color: lightblue;
 }
 
 section.sec{
-    height: 112%;
+    height: 100%;
     width: inherit;
-    background-size: cover;
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    background: #c0c0c0;
+    border: #a0a0a0 solid 1px;
 }
+
+.sec:before {
+  content: '\200B';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+ }
 
 article.art {
     position: relative;
