@@ -1,0 +1,232 @@
+body {
+	background: #660066 url(bg.jpg);
+	font: 11px/1.7em Verdana, Tahoma, Arial, Geneva, sans-serif;
+	color: #666666; 
+	text-align: center;
+	
+}
+#wrap {
+	max-width: 980px;
+	margin: 0 auto;
+    border-left-color: #fff;
+    border-right-color: #fff;
+    
+}
+#content-wrap {
+	position: relative;
+	background: #fff url(content-bg.jpg) repeat-x;
+	clear: both;
+	float: left;	
+	width: 1020px;	
+	padding: 0; 			
+	margin: 0 auto;	
+	display: inline;
+	border-top: 5px solid #fff;
+	border-bottom: 1px solid #e5e5e5;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+#header {
+	position: relative;
+	background: #fff url(header-bg.jpg) repeat-x;
+	width: 1024px;	
+	height: 100px;	
+	padding: 0;	
+	margin: 0 auto;
+}
+#header h1#title_text {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: normal 43px Georgia, "Times New Roman", Times, serif;
+	width: 480px;
+	height: 48px;
+    color: #fff;
+	
+	/* change the values of top and left to adjust the position of the logo*/
+	top: 25px; left: 0px;	
+}
+#header p#address_text {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: normal 12px 'Trebuchet MS', Arial, Verdana, sans-serif;
+	text-transform: none;
+	color: #fff;
+	
+	/* change the values of top and left to adjust the position of the slogan*/
+	top: 77px; left: 30px;		
+}
+#nav ul {
+	float: left;
+	list-style: none;
+	background: url(nav.jpg) repeat-x;	
+	width: 1020px;		
+	height: 45px;
+	text-transform: uppercase;
+	padding: 0;	
+	display: inline;
+}
+#nav ul li a{
+	display: inline;
+	margin: 0; padding: 0;
+    
+    display: block;
+	float: left;
+	width: auto;
+	margin: 0;
+	padding: 0 20px;
+	border-right: 1px solid #660066;
+	border-left: 1px solid #9900FF;
+	font: bold 14px/45px "Century Gothic", "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;	
+	letter-spacing: 1px;
+	color: #fff;
+}
+#nav ul li a:hover, 
+#nav ul li a:active {
+	background: #990099 repeat-x;
+}
+/*
+.dropdown-content {
+    display: none;
+    position: center;
+    background-color: #f9f9f9;
+    min-width: 105px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #990099}*/
+#mission p#mission-message{
+    border: solid #660066 3px;
+    width: 220px;
+    height: 80px;
+    padding: 25px;
+    font-size: 12px;
+    position: relative;
+    left: 150px;
+}
+#vision p#vision-message{
+    border: solid #660066 3px;
+    width: 220px;
+    height: 80px;
+    padding: 25px;
+    font-size: 12px;
+    position:absolute;
+    left: 600px;
+    top: 0px;
+}
+#barangay-lopez_jaena {
+	width: 550px;
+	padding: 0; margin: 20px 0 0 10px;
+	display: inline;	
+}
+#barangay-lopez_jaena h2 {
+	margin-top: 5px;
+	padding-bottom: 3px;
+	font: bold 2.9em/1em 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #990099;
+	letter-spacing: -1px;	
+	text-transform: none;
+    position: relative;
+    left: 0px;
+}
+#barangay-lopez_jaena p{    
+    margin: 10px;
+ 	/*padding: 0 0 0 35px;*/
+    padding: 15px;
+    border: 1px solid #F4F3EC; 
+	background: #f0fae7 url(quote.jpg) no-repeat 7px 10px; 
+	font: bold 1.3em/1.5em 'Trebuchet MS', Tahoma, Sans-serif;
+    text-align: justify;
+}
+.mySlides {
+    display:none;
+    margin-left: 250px;
+}
+#DidYouKnowThat h1{
+    padding: 25px;
+}
+#drugs p{
+    border: groove 3px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    height: 40px;
+    width: 650px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 180px;
+}
+#drugs-explanation p{
+    border: groove 3px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    height: 60px;
+    width: 650px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 180px;
+}
+#substance-abuse p{
+    border: groove 3px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    height: 40px;
+    width: 650px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 180px;
+}
+#reason p{
+    border: groove 3px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    height: 20px;
+    width: 650px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 180px;    
+}
+#how p{
+    border: groove 3px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    height: 60px;
+    width: 650px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 180px;
+}
+#reasons p {
+    border: groove 3px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    height: 180px;
+    width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin-left: 180px;
+}
+#facts-and-figures p{
+    padding: 25px;
+    font-size: 24px;
+}
+#acc p {
+    border: groove 3px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    height: 180px;
+    width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin-left: 180px;
+}
+
+
+
+
