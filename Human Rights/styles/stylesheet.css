@@ -43,23 +43,16 @@ li.navTab{
 section {
     margin: -48px auto;
     background-color: white;
+    background-color: rgba(0,0,0,0.2);
 }
 
-section#Home{
-    background-image: url("../images/img1.png");
-    text-align: center;
-    height: 107%;
-    width: 100%;
-    top: 30%;
-    margin-top: -42%;   
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+section#Home {
+    margin-top: -10%;   
+    background-color: pink;
 }
 
 section#News{
     background-color: yellow;
-    top: 30%;
 }
 
 section#Events{
@@ -76,29 +69,13 @@ section.sec{
     background-size: cover;
 }
 
-article#art1{
-    position: relative;
-    width: 100%; 
-    height: 420px; 
-    top: 30%;
-    float: center;
-}
-
-article#art2{
-    width: 25%; 
-    height: 420px; 
-    float: left;
-    font-size: 30;
-    text-align: center;
-    margin-top: 90px;
-}
-
 article.art {
     position: relative;
     width: 100%; 
     height: 300px; 
     top: 12%;
     float: center;
+    text-align: center;
     font-size: 30;
     color: white;
 }
