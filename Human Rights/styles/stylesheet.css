@@ -94,10 +94,6 @@ p {
     text-indent: 50px;
 }
 
-p#pp{
-    float: center;
-}
-
 p#p1 {
     height: inherit;
     width: 50%;
