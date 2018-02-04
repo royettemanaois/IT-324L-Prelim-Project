@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+    margin: 0 auto;
+    font-size: 20;
+    background-color: white;
+}
+
+nav {
+    width: 98.8%;
+    height: 18px;
+}
+
+ul {
+    list-style-type: none;
+    width: inherit;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FF4500;
+}
+
+li.navTab{
+    float: right;
+}
+
+section#Home {
+    margin-top: -18px;
+    background-color: lightgreen;
+}
+
+section#section2{
+    background-color: yellow;
+}
+
+section#section3{
+    background-color: orange;
+}
+
+section#section4{
+    background-color: lightblue;
+}
+
+section.sec{
+    height: 100%;
+    width: inherit;
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    background: #c0c0c0;
+    border: #a0a0a0 solid 1px;
+}
+
+.sec:before {
+  content: '\200B';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+ }
+
+article.art {
+    position: relative;
+    width: 100%; 
+    height: 300px; 
+    top: 12%;
+    float: center;
+    text-align: center;
+    font-size: 30;
+    color: white;
+}
+
+footer {
+    margin: 10 auto;
+    height: 120px;
+    background-color: lightgreen;
+}
+
+p {
+    text-indent: 50px;
+}
+
+p#pp{
+    float: center;
+}
+
+p#p1 {
+    height: inherit;
+    width: 50%;
+    float: left;
+    margin: inherit;
+}
+
+p#p2 {
+    height: inherit;
+    width: 50%;
+    float: right;
+    margin: inherit;
+}
+
+b.ci {
+    font-size: 18;
+}
