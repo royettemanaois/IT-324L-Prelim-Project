@@ -1,0 +1,53 @@
+@keyframes slideshow {
+	0%{left: 0;}
+	20%{left: 0;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+    120%{left: -400%;}
+    125%{left: -500%;}
+    145%{left: -500%;}
+    150%{left: -600%;}
+    170%{left: -600%;}
+    175%{left: -700%;}
+    195%{left: -700%;}
+    200%{left: -800%;}
+    220%{left: -800%;}
+    225%{left: -900%;}
+    245%{left: -900%;}
+}
+
+.slider {
+	overflow: hidden;
+	width: 70%;
+	height: 80%;
+	margin-top: 9%;
+	display: inline-block;
+  	vertical-align: middle;
+  	border: #a0a0a0 solid 1px;
+}
+
+.container {
+	position: relative;
+	width: 1000%;
+	height: 460%;
+	margin: 0 auto;
+	background: transparent;
+	clear: both;
+	animation: slideshow 15s infinite;
+}
+
+.slides {
+	position: relative;
+	width: 10%;
+	height: 22%;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+
