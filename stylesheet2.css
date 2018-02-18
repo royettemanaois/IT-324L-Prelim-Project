@@ -1,0 +1,152 @@
+nav a:hover{
+    color: yellow;
+}
+nav {
+    overflow: hidden;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    box-shadow: inset 0 0 10px rgba(255,255,255,0.1);
+    background-color: black;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    color: green;
+    text-align: center;
+    padding: 14px 115px;
+    text-decoration: none;
+    transition: all 0.25s linear;
+}
+
+li a:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin: 2em 0 0 0;
+    color: #34d4ed;
+    font-family: Bradley Hand, cursive;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 5px;
+    padding-bottom: 3px;
+    font: bold 2.9em/1em FreeMono, monospace;
+    color: #1a6f7c;
+    letter-spacing: 1px;   
+    text-align: center;     
+    left: 0px;
+		
+}
+
+body{
+    background-color: #e28441;
+}
+
+article{
+    font-family: Luminari, fantasy;
+    font-size: 20px;
+    margin: 2em 0 0 0;
+
+
+}
+
+table, th, td {
+         border: black;
+         font: bold 1.3em/1.5em 'Trebuchet MS', Tahoma, Sans-serif;
+ }
+ 
+ th, td {
+         padding: 5px;
+				 background-color: #ba9a84
+ }
+ 
+ td {
+         font-size: 18px;
+ }
+ 
+ th {
+         text-align: left;
+         background-color: rgb(210, 215, 211);
+ }
+ 
+ img {
+    width: 19.75%;
+		height: 100px;
+		position: relative;
+		top: 100px;
+}
+
+img:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(3);
+}
+
+section#section2 {
+     text-align: center;
+     background-color: green;
+     font-family: sans-serif;
+     color: black;
+     margin-top: 5em;
+}
+
+section#section3 {
+     background-color: rgba(119, 207, 207,0.7);
+     font-family: sans-serif;
+     padding: 0em 0;
+		  background-color: red;
+}
+
+footer{
+    background-color: #a80b1e;
+
+}
+
+footer p {
+    font-size: 25px;
+		font-family: sans-serif;
+}
+
+#section4 img[src="images/img6.png"] {
+
+  width: 100%;
+  height: 100vh;
+ 
+}
+
+section#section4{
+  background-color: #AEA8D3;
+  text-align: center;
+  font-size: 100px;
+  padding: 16px 32px;
+}
+
